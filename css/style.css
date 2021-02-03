@@ -1,17 +1,3 @@
-/* mix */
-.mrg_auto {
-  margin: auto;
-}
-
-body {
-  color: white;
-}
-
-ul {
-  margin-bottom: 0;
-}
-/* /mix */
-
 /* colori e misure dei blocchi da togliere */
 #main_nav .col-xs-3 {
   background: lightgrey;
@@ -36,6 +22,28 @@ ul {
 ;
 }
 /* /colori e misure dei blocchi da togliere */
+/* /////////////////////////////////////////////////////////// */
+
+/* mix */
+.mrg_auto {
+  margin: auto;
+}
+
+body {
+  color: white;
+}
+
+ul {
+  margin-bottom: 0;
+}
+/* /mix */
+
+/* typo */
+.text_blue {
+  color: #2c3e50;
+}
+/* /typo */
+
 
 /* backgrounds */
 .bg_blue {

@@ -26,6 +26,10 @@
   height: 200px;
   border: 1px solid black;
 }
+
+#copyright .container {
+  background: grey;
+}
 /* /colori e misure dei blocchi da togliere */
 /* /////////////////////////////////////////////////////////// */
 
@@ -69,6 +73,10 @@ h2 {
 /* backgrounds */
 .bg_blue {
   background-color: #2c3e50;
+}
+
+.bg_dark_blue {
+  background-color: #1a252f;
 }
 
 .bg_green {

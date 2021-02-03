@@ -21,6 +21,11 @@
   height: 200px;
 ;
 }
+
+#portfolio [class*='col-'] {
+  height: 200px;
+  border: 1px solid black;
+}
 /* /colori e misure dei blocchi da togliere */
 /* /////////////////////////////////////////////////////////// */
 
@@ -41,6 +46,10 @@ ul {
 /* typo */
 .text_blue {
   color: #2c3e50;
+}
+
+h2 {
+  text-align: center;
 }
 /* /typo */
 
@@ -68,11 +77,8 @@ ul {
 /* /main_nav */
 
 /* jumbotron */
-.container_small {
-  max-width: 700px;
-  height: 100%;
+.padd_70{
   padding: 70px 0;
-  text-align: center;
 }
 /* /jumbotron */
 

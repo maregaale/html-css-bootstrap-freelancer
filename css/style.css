@@ -7,9 +7,6 @@
   background: lightgreen;
 }
 
-.container-fluid.bg_green {
-  height: 600px;
-}
 
 .container_small {
   background: lightblue;
@@ -19,7 +16,6 @@
   background: blue;
   width: 200px;
   height: 200px;
-;
 }
 
 #portfolio [class*='col-'] {
@@ -41,6 +37,16 @@ body {
 ul {
   margin-bottom: 0;
 }
+
+/* padding */
+.padd_70{
+  padding: 70px 0;
+}
+
+.padd_20 {
+  padding: 70px 0;
+}
+/* /padding */
 /* /mix */
 
 /* typo */
@@ -76,10 +82,6 @@ h2 {
 }
 /* /main_nav */
 
-/* jumbotron */
-.padd_70{
-  padding: 70px 0;
-}
-/* /jumbotron */
+
 
 /* /header */

@@ -1,0 +1,32 @@
+/* mix */
+
+/* /mix */
+
+/* colori dei blocchi da togliere */
+#main_nav .col-xs-3 {
+  background: lightgrey;
+}
+
+#main_nav .col-xs-9 {
+  background: lightgreen;
+}
+/* /colori dei blocchi da togliere */
+
+/* backgrounds */
+.bg_blue {
+  background-color: #2c3e50;
+}
+/* /backgrounds */
+
+/* main_nav */
+#main_nav {
+  line-height: 70px;
+  color: white;
+}
+
+#main_nav li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* /main_nav */

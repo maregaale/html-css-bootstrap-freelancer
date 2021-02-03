@@ -1,4 +1,8 @@
 /* colori e misure dei blocchi da togliere */
+.debug [class*='col-'] {
+  border: 1px solid black;
+}
+
 #main_nav .col-xs-3 {
   background: lightgrey;
 }
@@ -40,11 +44,13 @@ ul {
 
 /* padding */
 .padd_70{
-  padding: 70px 0;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .padd_20 {
-  padding: 70px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 /* /padding */
 /* /mix */

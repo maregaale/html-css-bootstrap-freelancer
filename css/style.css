@@ -220,6 +220,12 @@ h4 {
   padding: 20px;
 }
 
+.empty_btn_white:hover {
+  border: 2px solid white;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+}
+
 .empty_btn_white span {
   font-weight: normal;
   padding-left: 10px;
@@ -248,6 +254,7 @@ h4 {
 #contact .btn_full:hover {
   background-color: #117964;
   border: 1px solid #117964;
+  transition: all 0.2s ease-in-out;
 }
 /* /sezione contact */
 /* /main */
@@ -269,6 +276,7 @@ h4 {
 #address .social a:hover {
   background-color: white;
   color: black;
+  transition: all 0.2s ease-in-out;
 }
 
 footer h3 {

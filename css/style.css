@@ -246,6 +246,7 @@ h4 {
 /* /main */
 
 /* footer */
+/* sezione indirizzo e social */
 #address .social a {
   display: inline-block;
   width: 50px;
@@ -282,6 +283,16 @@ footer h3 {
 #address .freelance a:hover {
   color: #117964;
 }
+/* /sezione indirizzo e social */
+
+/* sezione copyright */
+#copyright p {
+  margin: 0;
+  padding: 30px 0;
+}
+
+
+/* /sezione copyright */
 /* /footer */
 
 

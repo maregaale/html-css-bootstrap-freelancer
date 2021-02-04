@@ -33,6 +33,12 @@
 /* /colori e misure dei blocchi da togliere */
 /* /////////////////////////////////////////////////////////// */
 
+/* google font */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+/* /google font */
+
 /* mix */
 .mrg_auto {
   margin: auto;

@@ -46,7 +46,7 @@ ul {
   margin-bottom: 0;
 }
 
-/* padding */
+/* padding e margin*/
 .padd_70{
   padding-top: 70px;
   padding-bottom: 70px;
@@ -56,7 +56,11 @@ ul {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* /padding */
+
+.mrg_top_20 {
+  margin-top: 20px;
+}
+/* /padding e margin*/
 /* /mix */
 
 /* typo */

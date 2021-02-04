@@ -1,8 +1,4 @@
 /* colori e misure dei blocchi da togliere */
-.container_small {
-  background: lightblue;
-}
-
 .img_container {
   background: blue;
   width: 200px;
@@ -86,10 +82,12 @@ h2 {
 #main_nav {
   line-height: 100px;
   text-transform: uppercase;
+  position: relative;
 }
 
 #main_nav ul {
   list-style: none;
+  padding-left: 0;
 }
 
 #main_nav li {
@@ -98,23 +96,68 @@ h2 {
 }
 
 #main_nav a {
-  display: inline-block;
+  display: block;
   color: white;
   text-decoration: none;
 }
 
 .nav_left {
-  font-size: 26px;
+  font-size: 27px;
   font-weight: bold;
 }
 
 .nav_right {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
 }
-
 .nav_right li {
   padding: 0 20px;
 }
+
+/* hover sui link della main_nav */
+#main_nav .nav_right a:hover {
+  color: #117964;
+}
+/* /hover sui link della main_nav */
+
+/* hamburgher menu */
+.ham_menu {
+  display: none;
+}
+
+.ham_menu span {
+  font-weight: bold;
+}
+/* /hamburgher menu */
 /* /main_nav */
 /* /header */
+
+/* responsive */
+@media screen and (max-width: 992px) {
+
+  /* main-nav */
+  #main_nav {
+    line-height: 60px;
+  }
+
+  .nav_right {
+    display: none;
+  }
+
+  .nav_left {
+    font-size: 20px;
+  }
+
+  .ham_menu {
+    display: block;
+  }
+
+  #main_nav .ham_menu a {
+    display: inline-block;
+    line-height: 30px;
+    max-width: 90px;
+    padding: 8px;
+    border-radius: 7px;
+  }
+  /* /main-nav */
+}

@@ -1,10 +1,4 @@
 /* colori e misure dei blocchi da togliere */
-.img_container {
-  background: blue;
-  width: 200px;
-  height: 200px;
-}
-
 #portfolio [class*='col-'] {
   height: 200px;
   border: 1px solid black;
@@ -57,8 +51,20 @@ ul {
   color: white;
 }
 
+.text_up {
+  text-transform: uppercase;
+}
 h2 {
   text-align: center;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 500;
 }
 /* /typo */
 
@@ -81,7 +87,6 @@ h2 {
 /* main_nav */
 #main_nav {
   line-height: 100px;
-  text-transform: uppercase;
   position: relative;
 }
 
@@ -130,6 +135,30 @@ h2 {
 }
 /* /hamburgher menu */
 /* /main_nav */
+
+/* jumbotron */
+.jumbotron img {
+  height: 255px;
+  width: 240px;
+}
+
+.line_sep {
+  display: inline-block;
+  vertical-align: middle;
+  height: 4px;
+  max-width: 120px;
+  width: 33%;
+  background-color: white;
+  border-radius: 2px;
+  margin: 0 15px;
+}
+
+.star_sep {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30px;
+}
+/* /jumbotron */
 /* /header */
 
 /* responsive */

@@ -1,17 +1,4 @@
 /* colori e misure dei blocchi da togliere */
-.debug [class*='col-'] {
-  border: 1px solid black;
-}
-
-#main_nav .col-xs-3 {
-  background: lightgrey;
-}
-
-#main_nav .col-xs-9 {
-  background: lightgreen;
-}
-
-
 .container_small {
   background: lightblue;
 }
@@ -97,12 +84,37 @@ h2 {
 /* header */
 /* main_nav */
 #main_nav {
-  line-height: 70px;
+  line-height: 100px;
+  text-transform: uppercase;
+}
+
+#main_nav ul {
+  list-style: none;
 }
 
 #main_nav li {
   display: inline-block;
   vertical-align: middle;
+}
+
+#main_nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.nav_left {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.nav_right {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav_right li {
+  padding: 0 20px;
 }
 /* /main_nav */
 /* /header */

@@ -19,6 +19,11 @@ ul {
   padding-bottom: 70px;
 }
 
+.padd_50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .padd_20 {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -198,6 +203,23 @@ h4 {
   transform: translate(-50%, -50%);
 }
 /* /overlay */
+
+.font_norm {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.empty_btn_white {
+  background-color: inherit;
+  border: 2px solid white;
+  color: white;
+  padding: 20px;
+}
+
+.empty_btn_white span {
+  font-weight: normal;
+  padding-left: 10px;
+}
 /* /sezione portfolio */
 
 /* /main */

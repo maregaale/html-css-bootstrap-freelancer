@@ -243,9 +243,47 @@ h4 {
   font-weight: normal;
 }
 /* /sezione contact */
-
-
 /* /main */
+
+/* footer */
+#address .social a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 5px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+}
+
+#address .social a:hover {
+  background-color: white;
+  color: black;
+}
+
+footer h3 {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+#address p {
+  font-size: 18px;
+  padding: 0 12px;
+}
+
+#address .freelance a {
+  font-size: 18px;
+  font-weight: normal;
+  color: #1abc9c;
+}
+
+#address .freelance a:hover {
+  color: #117964;
+}
+/* /footer */
+
 
 /* responsive */
 @media screen and (max-width: 992px) {

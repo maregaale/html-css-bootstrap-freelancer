@@ -208,7 +208,9 @@ h4 {
   font-size: 16px;
   font-weight: 500;
 }
+/* /sezione portfolio */
 
+/* sezione about */
 .empty_btn_white {
   background-color: inherit;
   border: 2px solid white;
@@ -220,7 +222,28 @@ h4 {
   font-weight: normal;
   padding-left: 10px;
 }
-/* /sezione portfolio */
+/* /sezione about */
+
+/* sezione contact */
+#contact input, #contact textarea {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid lightgrey;
+  font-size: 25px;
+  padding: 30px 0;
+  letter-spacing: -1px;
+  font-weight: normal;
+  outline: none;
+}
+
+#contact .btn_full {
+  padding: 20px 30px;
+  color: white;
+  font-weight: normal;
+}
+/* /sezione contact */
+
 
 /* /main */
 

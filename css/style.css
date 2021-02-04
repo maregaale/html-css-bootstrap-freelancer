@@ -175,6 +175,7 @@ h4 {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .overlay_container:hover .overlay{
@@ -302,6 +303,14 @@ footer h3 {
 /* responsive */
 @media screen and (max-width: 992px) {
 
+  h2 {
+    font-size: 38px;
+  }
+
+  h4, .font_norm {
+    font-size: 18px;
+  }
+
   /* main-nav */
   #main_nav {
     line-height: 60px;
@@ -327,4 +336,11 @@ footer h3 {
     border-radius: 7px;
   }
   /* /main-nav */
+
+  /* footer */
+  #address p, #address .social {
+    margin-bottom: 30px;
+  }
+  /* /footer */
+
 }

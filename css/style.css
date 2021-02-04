@@ -54,6 +54,7 @@ h2 {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 h1 {
@@ -63,6 +64,7 @@ h1 {
 h4 {
   font-size: 22px;
   font-weight: 500;
+  padding-top: 10px;
 }
 /* /typo */
 
@@ -144,6 +146,7 @@ h4 {
   width: 240px;
 }
 
+/* separatore */
 .line_sep {
   display: inline-block;
   vertical-align: middle;
@@ -159,8 +162,20 @@ h4 {
   vertical-align: middle;
   font-size: 30px;
 }
+/* /separatore */
 /* /jumbotron */
 /* /header */
+
+/* main */
+/* sezione portfolio */
+#portfolio img {
+  width: calc(100% - 20px);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+/* /sezione portfolio */
+
+/* /main */
 
 /* responsive */
 @media screen and (max-width: 992px) {

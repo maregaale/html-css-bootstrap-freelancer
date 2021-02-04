@@ -242,6 +242,11 @@ h4 {
   color: white;
   font-weight: normal;
 }
+
+#contact .btn_full:hover {
+  background-color: #117964;
+  border: 1px solid #117964;
+}
 /* /sezione contact */
 /* /main */
 
@@ -290,8 +295,6 @@ footer h3 {
   margin: 0;
   padding: 30px 0;
 }
-
-
 /* /sezione copyright */
 /* /footer */
 

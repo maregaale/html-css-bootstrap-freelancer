@@ -337,6 +337,14 @@ footer h3 {
   }
   /* /main-nav */
 
+  /* overlay_container */
+  .overlay_container {
+    max-width: 345px;
+    margin: auto;
+  }
+  /* /overlay_container */
+
+
   /* footer */
   #address p, #address .social {
     margin-bottom: 30px;
